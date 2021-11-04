@@ -39,7 +39,7 @@ def read_yaml_configuration(filename):
     :rtype: dict
     '''
     with open(filename, 'r') as f:
-        config = yaml.load(f.read())
+        config = yaml.load(f.read(),Loader=yaml.FullLoader)
     return config
 
 
