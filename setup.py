@@ -57,7 +57,6 @@ setup(
     author="Marko Samastur",
     author_email="markos@gaivo.net",
     name='pyimagediet',
-    version='1.1.1b',
     version=find_version('pyimagediet', '__init__.py'),
     description='Python wrapper around image optimisations tools',
     long_description=read_long_description(),
